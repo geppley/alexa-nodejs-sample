@@ -13,7 +13,7 @@ var users = require('./routes/users');
 var greg = require('./routes/greg.js');
 var airport = require('./routes/airport_status.js');
 
-var app = express();np
+var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
