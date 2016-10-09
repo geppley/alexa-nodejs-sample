@@ -1,0 +1,17 @@
+﻿doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header
+        h1 My Site
+    .container
+        .main-content
+            block content
+        .side-bar
+            block sidebar
+  footer
+    p Running on node with Express, Jade and Stylus
+    div 
+        a(href='/') Home

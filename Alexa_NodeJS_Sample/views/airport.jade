@@ -1,0 +1,19 @@
+﻿extends layout
+
+block content
+  h1= title
+  p Airport: #{airport.name}.  
+  p Airport Code: #{airport.IATA}.  
+  p Location: #{airport.city}, #{airport.state}
+  p Weather: #{airport.weather.weather}
+  div Delay Status: #{delay}
+  
+block sidebar
+  .widget
+    h5 Last Search: 
+    p
+        a(href='/airport-status/'+airports[0]) #{airports[0]}
+    p
+        a(href='/airport-status/'+airports[1]) #{airports[1]}
+    p
+        a(href='/airport-status/'+airports[2]) #{airports[2]}
