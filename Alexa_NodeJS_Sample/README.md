@@ -1,3 +1,5 @@
 ﻿# Alexa_NodeJS_Sample
-For sample use only.
+For sample use only.  
+
+Hello GitHub
 
